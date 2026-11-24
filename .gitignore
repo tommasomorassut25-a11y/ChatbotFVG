@@ -1,0 +1,50 @@
+# --- Materiale di progetto (non versionato) ---
+documentation/
+
+# --- Segreti / configurazione locale ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Dati generati (dump, chunk, indici) ---
+data/raw/
+data/processed/
+*.bz2
+qdrant_storage/
+pgdata/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Log ---
+*.log
+logs/
